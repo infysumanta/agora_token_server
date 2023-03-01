@@ -1,5 +1,5 @@
 {
-  "name": "nodeserver",
+  "name": "agora_token_server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
