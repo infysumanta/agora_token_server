@@ -24,11 +24,10 @@ const eventTwoEnd = moment(`${eventTwoDate} ${eventTwoEndTime}`, dateFormat);
 
 const now = moment();
 
-const eventOneRemainingTime = moment.duration(eventOneEnd.diff(now, "minutes"));
-const eventOneFormattedTime = eventOneRemainingTime.humanize(true);
-
-const eventTwoRemainingTime = moment.duration(eventTwoEnd.diff(now));
-const eventTwoFormattedTime = eventTwoRemainingTime.humanize(true);
+// const eventOneRemainingTime = moment.duration(eventOneEnd.diff(now, "minutes"));
+// const eventOneFormattedTime = eventOneRemainingTime.humanize(true);
+// const eventTwoRemainingTime = moment.duration(eventTwoEnd.diff(now));
+// const eventTwoFormattedTime = eventTwoRemainingTime.humanize(true);
 
 console.log(`Event One Start: ${eventOneStart.diff(now, "hours")} hours`);
 console.log(`Event One End: ${eventOneEnd.diff(now, "hours")} hours`);
